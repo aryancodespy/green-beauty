@@ -176,7 +176,7 @@ footer {
     outline: none;
 }
 
-.button:hover{
+.button:hover, .category:hover{
     background-color: royalblue;
     color: #fff;
     box-shadow: 0px 15px 20px rgba(65, 105, 255, 0.8);
