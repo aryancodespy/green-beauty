@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    margin: 0 50px;
+    padding: 0 100px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+header{
+    display: flex;
+    margin: 20px auto;
+    padding: 20px;
+    justify-content: center;
+    
+}
+nav {
+    padding: 30px;
+}
+
+.button {
+    width: 140px;
+    height: 35px;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    border: 0;
+    border-radius: 45px;
+    outline: none;
+}
+
+.main-heading, .social {
+    text-align: center;
+    padding: 20px;
+    margin: 50px 0;
+
+}
+
+.header-image{
+    width: 100%;
+    height: auto;
+}
+
+#about-us {
+    text-align: center;
+    padding: 20px;
+    margin: 50px 0;
+    background-color:rgba(222, 184, 135, 0.55);
+}
+
+article p {
+    padding: 20px;
+    font-size: large;
+    margin: 0 50px;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+}
+
+#products {
+    text-align: center;
+    margin: 50px 0;
+    padding: 20px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 10px auto;
+    
+}
+
+.category {
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8);
+}
+
+.features{
+    margin: 50px 0;
+    padding: 20px;
+    background-color:rgba(222, 184, 135, 0.55);
+
+}
+
+ul {
+    list-style-type:circle;
+    list-style-position: inside;
+    padding: 15px 0 0 0;
+}
+
+li {
+    padding: 5px;
+    text-align: left;
+}
+
+.list {
+    margin: auto;
+    width: 20%;
+}
+
+.order-ad {
+    width: 80%;
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+
+}
+
+.ad {
+    padding: 20px;
+    margin: 10px;
+}
+
+.testimonials {
+    background-color:rgba(222, 184, 135, 0.55);
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+}
+
+.review {
+    width: 100%;
+    margin: 20px;
+    text-align: center;
+}
+
+.divider {
+    height: 150px;
+    width: 0;
+    border: 1px solid;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.order{
+    margin: 20px auto;
+    width: 140px;
+    height: 35px;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    border: 0;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8);
+    outline: none;
+}
+
+.button:hover{
+    background-color: royalblue;
+    color: #fff;
+    box-shadow: 0px 15px 20px rgba(65, 105, 255, 0.8);
+    transform: translateY(-4px), translateX(-4px);
+}
